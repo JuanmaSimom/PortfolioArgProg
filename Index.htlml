@@ -1,1 +1,195 @@
 
+<!DOCTYPE html>
+<html lang="es">
+
+<html>
+
+<head><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<link rel="stylesheet" href="estilos.css">
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="main.js"></script>
+
+
+
+</head>
+
+<body><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin= "anonymous"></script></body>
+
+
+<a name="ancla-1">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#ancla-1">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" 
+          data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+          aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#ancla-2">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#ancla-3">Link</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#ancla-4" id="navbarDropdown" role="button" 
+           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#ancla-5">Action</a>
+          <a class="dropdown-item" href="#ancla-6">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#ancla-7">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#ancla-8">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+<header>
+		<div class="menu_bar">
+			<a href="#" class="bt-menu"><span class="icon-list2"></span>Men�</a>
+		</div>
+
+		<nav>
+			<ul>
+				<li><a href="#"><span class="icon-house"></span>Inicio</a></li>
+				<li><a href="#"><span class="icon-suitcase"></span>Trabajos</a></li>
+				<li class="submenu">
+					<a href="#"><span class="icon-rocket"></span>Proyectos<span class="caret icon-arrow-down6"></span></a>
+					<ul class="children">
+						<li><a href="#">SubElemento #1 <span class="icon-dot"></span></a></li>
+						<li><a href="#">SubElemento #2 <span class="icon-dot"></span></a></li>
+						<li><a href="#">SubElemento #3 <span class="icon-dot"></span></a></li>
+					</ul>
+				</li>
+				<li><a href="#"><span class="icon-earth"></span>Servicios</a></li>
+				<li><a href="#"><span class="icon-mail"></span>Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+
+
+<div class="container-fluid">
+   <div class="row">
+   <div class="col">a Ver qu� pasa con este programita llamado bootstrap jeje<img src="Diagrama PETICIONES WEB.png"  class ="img-fluid" alt="Macondo"> </div>
+   <div class="col">a Ver qu� pasa con este programita llamado bootstrap jeje<img src="Peticiones WEB en CAPAS.png"  class ="img-fluid" alt="Macondo"></div>
+   <div class="col">a Ver qu� pasa con este programita llamado bootstrap jeje <img src="macondo.jpg"  class ="img-fluid" alt="Macondo"></div>
+</div>
+</div>
+<a name="ancla-2">
+<table class="table table-hover">
+    <thead>
+      <tr>
+        <th scope="col">Nro</th>
+        <th scope="col">Nombre</th>
+        <th scope="col">Apellido</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Maximiliano</td>
+        <td>Guerra</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td><a href="http://www.baikalquimica.com.ar" target="_blank">Ir a Baikal</a></td>
+        <td>Thomas</td>
+      </tr>
+    </tbody>
+  </table>
+
+ <div class="row"> 
+    <div class="col-lg-4">
+        <figure class="figure">
+            <img src="https://picsum.photos/id/680/400/300" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+            <figcaption class="figure-caption text-right">Imagen de una chica aparentemente asi�tica tras una ventana con lluvia</figcaption>
+        </figure>
+    </div>
+    <div class="col-lg-4">
+        <figure class="figure">
+            <img src="https://picsum.photos/id/681/400/300" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+            <figcaption class="figure-caption text-right">Imagen de un cielo estrellado con un bosque como marco</figcaption>
+        </figure>
+    </div>
+    <div class="col-lg-4">
+        <figure class="figure">
+            <img src="https://picsum.photos/id/682/400/300" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+            <figcaption class="figure-caption text-right">Imagen de alguna figura geom�trica, podr�a ser alguna instalaci�n art�stica</figcaption>
+        </figure>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-12">
+        <figure class="figure figure-container">
+            <img src="https://picsum.photos/id/679/1200/300" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+            <figcaption class="figure-caption">Posiblemente una escalera en espiral vista desde abajo</figcaption>
+        </figure>
+    </div>
+</div>
+<a name="ancla-3">
+<input type="text" class="form-control" placeholder="Pon� tu texto aqu�. Igual no padr�s hacer nada con eso.  JA JA JA">
+
+<a name="ancla-4">
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="">
+    Esta es una opci�n muy interesante que tienes que pinchar
+  </label>
+</div>
+<a name="ancla-5">
+
+<form>
+
+    <div class="mb-3">
+
+      <label for="idE" class="form-label">Correo</label>
+
+      <input type="email" class="form-control" id="idE" aria-describedby ="idEH">
+
+      <div id="idEH" class="form-text">Debe ser un correo v�lido.</div>
+
+    </div>
+
+    <div class="mb-3">
+
+      <label for="exampleInputPassword1" class="form-label">Password</label>
+
+      <input type="password" class="form-control" id="exampleInputPassword1">
+
+    </div>
+<a name="ancla-6">
+    <div class="mb-3 form-check">
+
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+
+      <label class="form-check-label" for="exampleCheck1">Recordarme</label>
+
+    </div>
+<a name="ancla-7">
+    <button type="submit" class="btn btn-primary">Enviar</button>
+
+</form>
+
+<a name="ancla-8">
+<body>
+
+<script src="app.js"> </script>
+</body>
+
+   </html>
+
+
+ 
